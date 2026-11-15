@@ -29,7 +29,7 @@ sources:
     note: Volume discovered each year, million Sm³ o.e.; 2025 is preliminary
   sodir_relief:
     name: Sodir FactPages and FactMaps; base map Relief (Copernicus DEM GLO-90, EMODnet Bathymetry, GEBCO)
-    url: https://github.com/AdmcCarthy/Relief
+    url: https://github.com/AdmcCarthy/kit-relief
     accessed: 2026-11-09
     note: Wells, fields and licences from Sodir (NLOD 2.0). Land heights Copernicus DEM GLO-90 © DLR e.V. 2010-2014 and © Airbus 2014-2018, provided under COPERNICUS by the European Union and ESA; sea-floor depths EMODnet Bathymetry Consortium (2024), generalised by Relief to a 4 km cell (shelf map) and a 2 km cell (North Sea map); beyond Relief's European regions the shelf map is filled from the GEBCO 2026 Grid (GEBCO; public domain, acknowledged), at a 20 km cell, not for navigation.
 data:

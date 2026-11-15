@@ -1,7 +1,7 @@
 # Wildcat
 
 **Still striking, in smaller pieces: fifty years of Norwegian exploration wellbores.**
-Live page: https://admccarthy.github.io/Wildcat/
+Live page: https://admccarthy.github.io/ds-wildcat/
 
 "Wildcat" is the repository's name; the page is titled *Still striking, in smaller pieces*. Every
 exploration wellbore on the Norwegian continental shelf since 1966, from Sodir's public data: how often
@@ -11,11 +11,11 @@ scatterplot of success rate against volume per discovery, 1990–2025. The story
 `reveal` arc: the success rate has held at about half, near-field drilling in mature acreage explains it,
 and the twist is that each find holds a fraction of what it used to.
 
-A [SubScout](https://github.com/AdmcCarthy/SubScout) story (v0.5.0): `story.md`, `story.py` (every
+A [SubScout](https://github.com/AdmcCarthy/kit-subscout) story (v0.5.0): `story.md`, `story.py` (every
 quoted number with method, source and confidence) and `figures/` (connected scatterplot, map,
 time-to-production chart, North Sea quarter-block glyph map with a bivariate colour scale).
 
-Both maps sit on [Relief](https://github.com/AdmcCarthy/Relief) (Copernicus DEM GLO-90 and EMODnet Bathymetry), drawn in its
+Both maps sit on [Relief](https://github.com/AdmcCarthy/kit-relief) (Copernicus DEM GLO-90 and EMODnet Bathymetry), drawn in its
 Detuned style at context strength so the wells and glyphs stay the strongest marks. The layers are converted to longitude and
 latitude once, in `scripts/build_relief_base.py`, so base and Sodir overlays are projected together in the browser. The North Sea
 map uses Relief's `north_sea` region. Relief has no single region over the whole shelf, so the shelf map joins `north_sea`,
@@ -39,5 +39,5 @@ and on the page under "Basis of analysis". Code: MIT License with Acknowledgemen
 ## Licence and acknowledgement
 
 MIT License with Acknowledgement ([LICENSE](LICENSE)): the MIT terms plus one condition. Anything built with this work says so,
-visibly and in plain words, and does not imply endorsement: "Built with Wildcat by Adam McCarthy (https://github.com/AdmcCarthy/Wildcat)". The wording is custom, so
+visibly and in plain words, and does not imply endorsement: "Built with Wildcat by Adam McCarthy (https://github.com/AdmcCarthy/ds-wildcat)". The wording is custom, so
 the licence is not OSI-approved. Third-party data and vendored code keep their own terms.

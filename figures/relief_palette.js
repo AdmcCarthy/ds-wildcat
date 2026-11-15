@@ -1,4 +1,4 @@
-// Vendored from Relief (github.com/AdmcCarthy/Relief, MIT), preview/palette.js: the Detuned style Relief draws every region in. Keep in step with Relief.
+// Vendored from Relief (github.com/AdmcCarthy/kit-relief, MIT), preview/palette.js: the Detuned style Relief draws every region in. Keep in step with Relief.
 // Shared palette code: class breaks, cross-blended hypsometric tints by climate zone, the Detuned style and
 // colour bars. Used by the region examples (regions.js) and the techniques page (demo.js).
 

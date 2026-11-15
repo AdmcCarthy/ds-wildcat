@@ -68,7 +68,7 @@ def render(manifest: dict, title: str, source: str) -> str:
 <p><a href="../">← {html.escape(title)}</a></p>
 <h1>Print files</h1>
 <p class="lead">Each figure as a vector PDF at paper size (A3 and A1, landscape) and as a PNG at a stated resolution, made with
-<a href="https://github.com/AdmcCarthy/Plate">Plate</a> from the same chart code as the page. Source: {html.escape(source)}. Large
+<a href="https://github.com/AdmcCarthy/kit-plate">Plate</a> from the same chart code as the page. Source: {html.escape(source)}. Large
 sheets: use the PDF; the PNG is a proof and is capped in size.</p>
 {"".join(body)}
 </main></body></html>
