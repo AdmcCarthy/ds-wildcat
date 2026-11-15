@@ -1,5 +1,9 @@
 # Wildcat
 
+[![Pages](https://github.com/AdmcCarthy/ds-wildcat/actions/workflows/pages.yml/badge.svg)](https://github.com/AdmcCarthy/ds-wildcat/actions/workflows/pages.yml)
+![Python](https://img.shields.io/badge/python-%E2%89%A53.12-lightgrey)
+[![Licence](https://img.shields.io/badge/licence-MIT%20with%20acknowledgement-lightgrey)](LICENSE)
+
 **Still striking, in smaller pieces: fifty years of Norwegian exploration wellbores.**
 Live page: https://admccarthy.github.io/ds-wildcat/
 
