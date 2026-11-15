@@ -1,6 +1,6 @@
 # Wildcat: working rules
 
-A SubScout story (github.com/AdmcCarthy/kit-subscout, pinned tag) on Norwegian exploration wellbores.
+A SubScout story (github.com/AdmcCarthy/core-subscout, pinned tag) on Norwegian exploration wellbores.
 "Wildcat" is only the repo name; the page is titled *Still striking, in smaller pieces*.
 Owner: Adam McCarthy, petroleum geoscience domain expert. Follow SubScout's CLAUDE.md and styleguide.
 

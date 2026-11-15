@@ -11,7 +11,7 @@ scatterplot of success rate against volume per discovery, 1990–2025. The story
 `reveal` arc: the success rate has held at about half, near-field drilling in mature acreage explains it,
 and the twist is that each find holds a fraction of what it used to.
 
-A [SubScout](https://github.com/AdmcCarthy/kit-subscout) story (v0.5.0): `story.md`, `story.py` (every
+A [SubScout](https://github.com/AdmcCarthy/core-subscout) story (v0.5.0): `story.md`, `story.py` (every
 quoted number with method, source and confidence) and `figures/` (connected scatterplot, map,
 time-to-production chart, North Sea quarter-block glyph map with a bivariate colour scale).
 
