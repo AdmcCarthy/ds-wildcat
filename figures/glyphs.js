@@ -16,7 +16,7 @@ const ringCol = (x) => BIV[scheme()][1][x];
 
 export default function create(el, { quarters: Q, relief_ns: R, fields_ns: FL, licences_ns: LIC }, opts = {}) {
   const S = Q.summary;
-  el.innerHTML = "";
+  el.replaceChildren();
   const wrap = d3.select(el).append("div").attr("class", "wcg-wrap").classed("is-export", !!opts.export);
   const mapBox = wrap.append("div").attr("class", "wcg-map");
   const side = wrap.append("div").attr("class", "wcg-side");

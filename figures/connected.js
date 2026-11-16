@@ -4,7 +4,7 @@
 import { pal, tok, tip, vol, pct, unit, reducedMotion } from "./common.js";
 
 export default function create(el, { journey: J }, opts = {}) {
-  el.innerHTML = "";
+  el.replaceChildren();
   const svg = d3.select(el).append("svg").style("display", "block").style("width", "100%");
   const P = J.points;
   let W = 0, cur = {};

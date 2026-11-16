@@ -6,7 +6,7 @@ import { paintSvg } from "./relief.js";
 
 const ANGLE_WIDE = 108, ANGLE_NARROW = 18; // wide: the shelf runs along the panel (2 : 1); a phone keeps it running up
 export default function create(el, { wells: WL, fields: FL, relief: R, land: LAND, borders: B }, opts = {}) {
-  el.innerHTML = "";
+  el.replaceChildren();
   const svg = d3.select(el).append("svg").style("display", "block").style("width", "100%").style("overflow", "hidden");
   let W = 0, cur = {};
   const legend = (state) => {
