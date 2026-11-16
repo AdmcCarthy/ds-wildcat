@@ -655,7 +655,7 @@ wheels = [
 [[package]]
 name = "plate"
 version = "0.1.0"
-source = { git = "https://github.com/AdmcCarthy/Plate?tag=v0.1.0#c21a2b029e523d9dca312b415656515bd7705bde" }
+source = { git = "https://github.com/AdmcCarthy/kit-plate?tag=v0.1.0#c21a2b029e523d9dca312b415656515bd7705bde" }
 dependencies = [
     { name = "jinja2" },
     { name = "pillow" },
@@ -1018,7 +1018,7 @@ wheels = [
 [[package]]
 name = "subscout"
 version = "0.8.1"
-source = { git = "https://github.com/AdmcCarthy/SubScout?tag=v0.8.1#ca48dfaec9e147b24c8c7867bdba67118b452ff7" }
+source = { git = "https://github.com/AdmcCarthy/core-subscout?tag=v0.8.1#ca48dfaec9e147b24c8c7867bdba67118b452ff7" }
 dependencies = [
     { name = "coloraide" },
     { name = "jinja2" },
@@ -1081,8 +1081,8 @@ pipeline = [
 
 [package.metadata]
 requires-dist = [
-    { name = "plate", git = "https://github.com/AdmcCarthy/Plate?tag=v0.1.0" },
-    { name = "subscout", git = "https://github.com/AdmcCarthy/SubScout?tag=v0.8.1" },
+    { name = "plate", git = "https://github.com/AdmcCarthy/kit-plate?tag=v0.1.0" },
+    { name = "subscout", git = "https://github.com/AdmcCarthy/core-subscout?tag=v0.8.1" },
 ]
 
 [package.metadata.requires-dev]
