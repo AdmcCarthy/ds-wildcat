@@ -23,7 +23,7 @@ dev = ["pytest>=8", "ruff>=0.6"]
 package = false
 
 [tool.uv.sources]
-subscout = { git = "https://github.com/AdmcCarthy/core-subscout", tag = "v0.8.1" }
+subscout = { git = "https://github.com/AdmcCarthy/core-subscout", tag = "v0.15.0" }
 plate = { git = "https://github.com/AdmcCarthy/kit-plate", tag = "v0.1.0" }
 
 [tool.pytest.ini_options]
