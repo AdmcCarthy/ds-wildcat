@@ -1026,8 +1026,8 @@ wheels = [
 
 [[package]]
 name = "subscout"
-version = "0.15.0"
-source = { git = "https://github.com/AdmcCarthy/core-subscout?tag=v0.15.0#a509e7e16d052402d1293c1584856431d1d70c62" }
+version = "0.16.0"
+source = { git = "https://github.com/AdmcCarthy/core-subscout?tag=v0.16.0#ce312399c2d177aeed6aada17959eb5f59470e5a" }
 dependencies = [
     { name = "coloraide" },
     { name = "jinja2" },
@@ -1092,7 +1092,7 @@ pipeline = [
 [package.metadata]
 requires-dist = [
     { name = "plate", git = "https://github.com/AdmcCarthy/kit-plate?tag=v0.1.0" },
-    { name = "subscout", git = "https://github.com/AdmcCarthy/core-subscout?tag=v0.15.0" },
+    { name = "subscout", git = "https://github.com/AdmcCarthy/core-subscout?tag=v0.16.0" },
 ]
 
 [package.metadata.requires-dev]
