@@ -1351,6 +1351,7 @@ well,year,spud,completed,area,lat,lon,content,technical,new_discovery,discovery,
 34/8-A-37 H,2026,2026-01-17,2026-04-15,North Sea,61.370222,2.459925,SHOWS,False,False,,,False,,,,335.0,6691.0,89,False,10-A,0.0,Equinor Energy AS,True
 35/11-32 S,2026,2026-01-26,2026-03-07,North Sea,61.157311,3.471103,OIL,True,True,35/11-32 S (Byrding C),evaluating,False,,,,373.0,3548.0,41,False,Awarded additionally to round 8,0.2,Equinor Energy AS,False
 36/4-2,2026,2026-06-29,2026-08-22,North Sea,61.646172,4.147942,GAS,True,True,36/4-2 (Alpehumle),evaluating,False,,,,255.0,2285.0,24,True,TFO2021,17.9,Aker BP ASA,False
+36/7-6 S,2026,2026-11-03,2026-11-16,North Sea,61.440078,4.227136,,False,False,,,False,,,,304.0,2167.0,14,True,TFO2011,3.4,Vår Energi ASA,False
 6407/5-3 S,2026,2026-08-10,2026-10-25,Norwegian Sea,64.658839,7.451219,GAS/CONDENSATE,True,True,6407/5-3 S (Lakris),evaluating,False,,,,218.0,4356.0,77,True,TFO2018,8.8,Vår Energi ASA,False
 6507/8-12 S,2026,2025-11-17,2026-01-16,Norwegian Sea,65.411917,7.399792,OIL,True,True,6507/8-12 S (Othello Sør),evaluating,False,,,,374.0,2511.0,61,False,10-B,1.8,Equinor Energy AS,False
 6507/8-D-4 CH,2026,2026-05-09,2026-05-26,Norwegian Sea,65.361847,7.336031,DRY,False,False,,,False,,,,389.2,3701.0,18,False,10-B,0.0,Equinor Energy AS,True
